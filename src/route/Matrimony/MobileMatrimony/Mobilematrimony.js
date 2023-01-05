@@ -24,6 +24,7 @@ import { HistoryMov } from "../../../Wrapper/Home/mobileversion/history/HistoryM
 import { Like } from "../../../Wrapper/Home/mobileversion/Like";
 import { MatchesMov } from "../../../Wrapper/Home/mobileversion/MatchesMov";
 import { MeetMov } from "../../../Wrapper/Home/mobileversion/meet/MeetMov";
+import MobileFindPartner from "../../../Wrapper/Home/mobileversion/MobileFindPartner/MobileFindPartner";
 import { MobileHome } from "../../../Wrapper/Home/mobileversion/MobileHome";
 import Certificate from "../../../Wrapper/Home/mobileversion/PhotoGallery/certificate/Certificate";
 import { PrivacyMov } from "../../../Wrapper/Home/mobileversion/privacy/PrivacyMov";
@@ -183,6 +184,11 @@ const MobileMatrimony = [
         id: 27,
         path: "/mobileActivityPage",
         element: <SingleUserActivity />,
+      },
+    {
+        id: 28,
+        path: "/mobile-find-partner",
+        element: <MobileFindPartner />,
       },
     
 

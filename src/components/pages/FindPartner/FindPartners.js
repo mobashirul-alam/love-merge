@@ -11,11 +11,11 @@ const FindPartners = () => {
   }, []);
   return (
     <div className="bg-[#fafbff]">
-      <div className="hidden md:block">
+      <div className="hidden md:hidden lg:block">
         <CustomHeader title="Find Partners" />
       </div>
 
-      <div className="hidden md:block">
+      <div className="hidden md:hidden lg:block">
         <section className="py-10">
           <div className="max-w-[1200px] mx-auto ">
             <div className="grid grid-cols-1 lg:grid-cols-4  gap-4 justify-center ">
@@ -33,23 +33,6 @@ const FindPartners = () => {
           <br></br>
           <br></br>
           <Footer />
-        </section>
-      </div>
-      <div className="md:hidden">
-        <section className="py-10">
-          <div className="max-w-[1300px] mx-auto ">
-          <div className="grid grid-cols-1 lg:grid-cols-4  gap-4 justify-center ">
-              <div>
-                <PartnerFilterBox />
-              </div>
-              <div className="col-span-3">
-                <div>
-                  <FindPartnersHeader />
-                </div>
-                <Outlet />
-              </div>
-            </div>
-          </div>
         </section>
       </div>
     </div>

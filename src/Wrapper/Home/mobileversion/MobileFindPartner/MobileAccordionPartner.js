@@ -13,11 +13,11 @@ import {
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router";
-import { setFilterObject } from "../../../Redux/features/filter/filterSlice";
-import { countries } from "../../shared/AutoSuggestion/countries";
-import { hometown } from "../../shared/AutoSuggestion/homeTown";
+import { setFilterObject } from "../../../../Redux/features/filter/filterSlice";
+import { countries } from "../../../../components/shared/AutoSuggestion/countries";
+import { hometown } from "../../../../components/shared/AutoSuggestion/homeTown";
 
-export const AccordionPartner = ({ data, isLoading }) => {
+export const MobileAccordionPartner = ({ data, isLoading }) => {
   const hightestEducationalQualification =
     data?.hightestEducationalQualification;
   const { Panel } = Collapse;
@@ -1469,13 +1469,13 @@ export const AccordionPartner = ({ data, isLoading }) => {
             </div>
           </Panel>
         </Collapse>
-        <div className=" justify-center items-center ] mt-[30px] hidden md:hidden lg:block">
+        <div className=" justify-center items-center ] mt-[30px]  md:hidden lg:hidden">
           <button
             onClick={handleSubmit}
             style={{
               background: "linear-gradient(180deg, #E41272 0%, #942DD9 100%)",
             }}
-            className="w-[179px] text-center py-[8] px-[10px] text-[#fff] h-[54px] text-2xl font-medium rounded-xl"
+            className="w-[179px] text-center py-[8] px-[10px] text-[#fff] h-[34px] text-2xl font-medium rounded-xl"
           >
             Submit
           </button>
