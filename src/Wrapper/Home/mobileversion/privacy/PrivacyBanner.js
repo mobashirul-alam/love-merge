@@ -1,8 +1,6 @@
 import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
 export const PrivacyBanner = () => {
@@ -13,6 +11,7 @@ export const PrivacyBanner = () => {
         <img src='https://i.ibb.co/x2L99Cr/Arrow-2.png' className='ml-20 mt-5' alt="Not Available"></img>
       </div>
       <Card className='w-full rounded'>
+        
         <CardActionArea>
           <CardContent>
             <h1 className='font-bold mt-8'>Privacy Policy</h1>

@@ -1,26 +1,16 @@
-import ArrowForwardIosSharpIcon from "@material-ui/icons/ArrowForwardIosSharp";
-import MuiAccordion from "@mui/material/Accordion";
-import MuiAccordionDetails from "@mui/material/AccordionDetails";
-import MuiAccordionSummary from "@mui/material/AccordionSummary";
-import { styled } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import moment from "moment";
 import React from "react";
-import { useNavigate } from "react-router";
+
 import { Link } from "react-router-dom";
 import { useGetProfileDetailsWIthAuthQuery } from "../../../Redux/features/userInfo/userApi";
 
 export const PersonalDetailsMobile = () => {
-    const { data, isLoading } = useGetProfileDetailsWIthAuthQuery();
+    const { data} = useGetProfileDetailsWIthAuthQuery();
     // const { phone, email, NidOrPassportNumber, citizenShip, zodiacSign, barRegistrationNumber, licenceNo, yearOfBarRegistration, dateOfBirth } = data;
     const hightestEducationalQualification = data?.hightestEducationalQualification;
 
-    const [expanded, setExpanded] = React.useState("panel1");
 
-    const handleChange = panel => (event, newExpanded) => {
-        setExpanded(newExpanded ? panel : false);
-    };
-    const navigate = useNavigate();
     // if (isLoading) return false;
   return (
     <div className="ml-4 mr-4">

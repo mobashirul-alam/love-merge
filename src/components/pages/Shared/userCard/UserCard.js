@@ -61,7 +61,7 @@ export const UserCard = ({ profile }) => {
         className="hidden md:block"
       >
         {profile && (
-          <div className="h-[400px]  relative group overflow-hidden Suggested-card  ml-6">
+          <div className="h-[400px]  relative group overflow-hidden Suggested-card">
             <img
               className="h-[400px] rounded-tr-[12px] bg-white rounded-tl-[12px] rounded-bl-[12px] rounded-br-[12px] object-cover w-full"
               src={profilePhoto}

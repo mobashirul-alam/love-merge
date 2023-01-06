@@ -33,6 +33,7 @@ const SingleUserActivity = () => {
             attachment: photoURL,
             postBody: postText,
         });
+        setPostText('')
     };
 
     const photoHandler = async e => {

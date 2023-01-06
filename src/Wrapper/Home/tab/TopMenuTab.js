@@ -1,13 +1,12 @@
 import Box from "@mui/material/Box";
 import Popper from "@mui/material/Popper";
-import React, { useState } from "react";
+import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import { auth } from "../../../firebase.init";
 import "../mobileversion/TopMenu.css";
 export const TopMenuTab = () => {
     const [user] = useAuthState(auth);
-    const [state, setState] = useState(false);
     const [anchorEl, setAnchorEl] = React.useState(null);
 
     const handleClick = event => {
@@ -37,7 +36,7 @@ export const TopMenuTab = () => {
                         <Box sx={{ border: 1, p: 1, bgcolor: "background.paper" }} className="p-28">
                             {user && (
                                 <div className="` ">
-                                    <img src={user.photoURL} className="w-20 rounded-full"></img>
+                                    <img src={user.photoURL} className="w-20 rounded-full" alt="profile"></img>
                                     <Link to="" className="mt-4">
                                         <span className=" pt-2   pb-2 ">{user.displayName}</span>
                                     </Link>
@@ -53,14 +52,14 @@ export const TopMenuTab = () => {
                 </div>
             </div>
 
-            {user && state && (
+            {user  && (
                 <div className="` ">
                     <Link to="" className="mt-4">
                         <span className="bg-red-500 text-white pt-2   pb-2  ml-8">{user.displayName}</span>
                     </Link>
                 </div>
             )}
-            {!user && state && (
+            {!user &&  (
                 <div className="` ">
                     <Link to="/login" className="mt-4">
                         <span className="bg-red-500 text-white pt-2 pl-4 pr-4 pb-2 mr-4 rounded-full ml-8">Login</span>

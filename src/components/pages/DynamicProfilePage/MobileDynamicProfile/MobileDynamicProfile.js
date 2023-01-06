@@ -1,13 +1,12 @@
 // configuration
 import * as React from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
-import { useGetProfileDetailsQuery } from "../../../../Redux/features/userInfo/userApi";
+import { Link, useNavigate} from "react-router-dom";
 
 export const MobileDynamicProfile = ({profile}) => {
     // hooks variable
-const {id} = useParams();
+
 const navigate = useNavigate();
-const { data, isLoading } = useGetProfileDetailsQuery(id);
+
     return (
         <div className="mb-[69px] max-w-[523px] mx-auto">
             <div>

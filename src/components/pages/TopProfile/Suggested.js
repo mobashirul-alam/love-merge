@@ -57,7 +57,7 @@ const Suggested = () => {
     return (
         // w-80 mx-auto
         <div>
-            <div className="mt-[30px] max-w-[950px] mx-auto hidden md:block">
+            <div className="mt-[30px] max-w-[1000px] mx-auto hidden md:block">
                 <Swiper
                     spaceBetween={30}
                     breakpoints={{
