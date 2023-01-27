@@ -25,7 +25,7 @@ const BannerProfile = () => {
           disableOnInteraction: true,
         }}
         modules={[Navigation, Autoplay]}
-        className="max-w-[280px] h-[400px]"
+        className="w-[300px] lg:max-w-[280px] h-[400px]"
         navigation={true}
       >
         {swipematch?.data?.members.map((data) => (
