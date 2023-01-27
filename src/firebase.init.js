@@ -8,12 +8,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAjzmOQUwPqxzjnSj_lT5mi0Cd8jzz76OM",
-    authDomain: "songsari-f1107.firebaseapp.com",
-    projectId: "songsari-f1107",
-    storageBucket: "songsari-f1107.appspot.com",
-    messagingSenderId: "270463492610",
-    appId: "1:270463492610:web:8931dde21590463e8ffd1b",
+  apiKey: "AIzaSyBjJDgv8bvnkNv-8JsoPPwhU4AGQb5aLiU",
+  authDomain: "love-merg.firebaseapp.com",
+  projectId: "love-merg",
+  storageBucket: "love-merg.appspot.com",
+  messagingSenderId: "352258617512",
+  appId: "1:352258617512:web:c10b124b8cdcd816bf529d",
 };
 
 // Initialize Firebase
