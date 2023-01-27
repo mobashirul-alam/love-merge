@@ -13,7 +13,7 @@ export const MobileHome = () => {
     <div className="mov-res">
       <TopMenu></TopMenu>
       <MobileBanner></MobileBanner>
-      <Services></Services>
+      {/* <Services></Services> */}
       <TopProfileMov />
       <div className="h-12"></div>
       <BottomNav />

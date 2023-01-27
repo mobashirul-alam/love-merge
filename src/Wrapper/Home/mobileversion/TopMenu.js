@@ -1,17 +1,20 @@
-// normal import
-import React from "react";
 // configuration
-// material ui
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+
+// Third party package
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import { Link, useNavigate } from "react-router-dom";
+
 // components
-// css import;
 import { useDispatch, useSelector } from "react-redux";
 import removeCookie from "../../../Helper/cookies/removeCookie";
 import isLoggedIn from "../../../Helper/hooks/checkLoggerPersestency/isLoggedIn";
 import { loadUserData } from "../../../Redux/features/userInfo/userInfo";
+import logoSmall from "../../../assets/images/Logo/lovemergSmall.png";
+
+// css import;
 import "./TopMenu.css";
 export const TopMenu = () => {
   // hooks variables
@@ -73,7 +76,8 @@ export const TopMenu = () => {
             <div className="flex items-center">
               <div className="mov-top w-8 rounded-full mt-1">
                 <img
-                  src="https://i.ibb.co/pZFRdCB/512-512-Icon-1.png"
+                  className="rounded-full"
+                  src={logoSmall}
                   alt="Not Available"
                 ></img>
               </div>
@@ -87,7 +91,7 @@ export const TopMenu = () => {
               >
                 <span className="text-black font-bold">
                   {" "}
-                  Shongshari.com <i className="fa-solid fa-angle-down"></i>
+                  Lovemerg <i className="fa-solid fa-angle-down"></i>
                 </span>
               </Button>
             </div>

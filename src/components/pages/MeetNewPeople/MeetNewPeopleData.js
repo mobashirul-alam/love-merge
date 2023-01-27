@@ -13,7 +13,7 @@ const MeetNewPeopleData = [
   },
   {
     img: "https://shonshari.vercel.app/static/media/icon3.453f9a7f7a4933084d4d.png",
-    title: "Start Family",
+    title: "Start Dating",
     number: "03",
     _id: 3,
   },

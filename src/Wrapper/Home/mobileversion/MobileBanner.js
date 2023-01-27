@@ -17,29 +17,8 @@ export const MobileBanner = () => {
       <Swiper {...settings}>
         <SwiperSlide>
           <img
-            src="https://i.ibb.co/FDC2838/Rectangle-4464.png"
-            className="mx-auto w-full"
-            alt="Not Available"
-          ></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://i.ibb.co/FDC2838/Rectangle-4464.png"
-            className="mx-auto w-full"
-            alt="Not Available"
-          ></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://i.ibb.co/FDC2838/Rectangle-4464.png"
-            className="mx-auto w-full"
-            alt="Not Available"
-          ></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://i.ibb.co/FDC2838/Rectangle-4464.png"
-            className="mx-auto w-full"
+            src="https://images.unsplash.com/photo-1575390130709-7b5fee2919e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            className="mx-auto w-full rounded-md max-h-48"
             alt="Not Available"
           ></img>
         </SwiperSlide>

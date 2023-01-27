@@ -4,7 +4,7 @@
 
 .section-img-container {
     min-height: 500px;
-    background: linear-gradient(0deg, rgba(230, 5, 218, 0.548), rgba(232, 15, 240, 0.096)), url("../images/executiveimg.jpeg");
+    background: linear-gradient(0deg, rgba(230, 5, 218, 0.548), rgba(232, 15, 240, 0.096)), url("https://images.unsplash.com/photo-1627941433145-3ca08bb930f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
     background-size: cover;
     filter: brightness(80%);
     border-radius: 10px;

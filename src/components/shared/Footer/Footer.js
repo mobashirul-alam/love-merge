@@ -187,17 +187,17 @@ const Footer = () => {
                 </span>
                 <a
                   className="ml-1 text-[#ffca28]"
-                  href="http://shongshari.com/"
+                  href="https://love-merg.web.app/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  shongshari.com
+                  Lovemerg
                 </a>
               </div>
               <VersionTrack />
             </div>
             <div>
-              <ul className="footer-social-links flex  ">
+              {/* <ul className="footer-social-links flex  ">
                 <li>
                   <a
                     href="https://www.facebook.com/shongsharibd"
@@ -216,7 +216,7 @@ const Footer = () => {
                     <i className="fab fa-dribbble"></i>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
